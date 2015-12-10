@@ -21,18 +21,18 @@
                     </view>
                     <navigationItem key="navigationItem" id="kHm-tW-S2N"/>
                     <connections>
-                        <segue destination="Wj4-Kn-BlY" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="Api-4d-PD5"/>
-                        <segue destination="bSD-gM-ANB" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="Py8-g5-W5k"/>
+                        <segue destination="bSD-gM-ANB" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="0h1-DM-05a"/>
+                        <segue destination="Wj4-Kn-BlY" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="FPx-eg-L4h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="409" y="102"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Menu Table View Controller-->
         <scene sceneID="nN8-E1-OiX">
             <objects>
-                <tableViewController id="bSD-gM-ANB" sceneMemberID="viewController">
+                <tableViewController id="bSD-gM-ANB" customClass="MenuTableViewController" customModule="SWReveal" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="jMf-7D-OTy">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -59,6 +59,9 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <segue destination="Wj4-Kn-BlY" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="58J-pw-SXz"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="5ed-dm-5TC">
                                         <rect key="frame" x="0.0" y="44" width="600" height="44"/>
@@ -78,6 +81,9 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <segue destination="Vpx-ce-5PP" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="tm7-VW-bn3"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="3ND-5d-TEZ">
                                         <rect key="frame" x="0.0" y="88" width="600" height="44"/>
@@ -97,6 +103,9 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <segue destination="WWv-xh-ou2" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="VVY-qM-xHK"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -234,4 +243,7 @@
             <point key="canvasLocation" x="2525" y="634"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="58J-pw-SXz"/>
+    </inferredMetricsTieBreakers>
 </document>

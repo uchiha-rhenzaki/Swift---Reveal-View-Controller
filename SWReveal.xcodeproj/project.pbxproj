@@ -16,6 +16,7 @@
 		B7075C751C19389600852852 /* SWRevealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7075C741C19389600852852 /* SWRevealTests.swift */; };
 		B7075C801C19389600852852 /* SWRevealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7075C7F1C19389600852852 /* SWRevealUITests.swift */; };
 		B7075C921C19399200852852 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7075C911C19399200852852 /* SWRevealViewController.m */; };
+		B7075C961C194DFB00852852 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7075C951C194DFB00852852 /* MenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B7075C8F1C19399100852852 /* SWReveal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SWReveal-Bridging-Header.h"; sourceTree = "<group>"; };
 		B7075C901C19399200852852 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		B7075C911C19399200852852 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		B7075C951C194DFB00852852 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				B7075C8D1C19395900852852 /* Lib */,
 				B7075C5C1C19389500852852 /* AppDelegate.swift */,
 				B7075C5E1C19389500852852 /* ViewController.swift */,
+				B7075C951C194DFB00852852 /* MenuTableViewController.swift */,
 				B7075C601C19389500852852 /* Main.storyboard */,
 				B7075C661C19389500852852 /* Assets.xcassets */,
 				B7075C681C19389500852852 /* LaunchScreen.storyboard */,
@@ -284,6 +287,7 @@
 			files = (
 				B7075C5F1C19389500852852 /* ViewController.swift in Sources */,
 				B7075C651C19389500852852 /* SWReveal.xcdatamodeld in Sources */,
+				B7075C961C194DFB00852852 /* MenuTableViewController.swift in Sources */,
 				B7075C5D1C19389500852852 /* AppDelegate.swift in Sources */,
 				B7075C921C19399200852852 /* SWRevealViewController.m in Sources */,
 			);
@@ -517,6 +521,7 @@
 				B7075C861C19389600852852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7075C871C19389600852852 /* Build configuration list for PBXNativeTarget "SWRevealTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +530,7 @@
 				B7075C891C19389600852852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7075C8A1C19389600852852 /* Build configuration list for PBXNativeTarget "SWRevealUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +539,7 @@
 				B7075C8C1C19389600852852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
